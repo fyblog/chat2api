@@ -137,4 +137,4 @@ if __name__ == '__main__':
 
     cli = OpenaiAPI()
     chat2api_server = Chat2API(cli, WrtnAi(cli, REFRESH_TOKEN, PROXY))
-    uvicorn.run(app, host='0.0.0.0', port=5000)
+    uvicorn.run(app, host='0.0.0.0', port=15000)
